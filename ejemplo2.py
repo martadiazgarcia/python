@@ -16,5 +16,4 @@ def caracter(letra):
 
     else:
         print("La letra ", letra, " es una consonante")
-
 caracter ("A")

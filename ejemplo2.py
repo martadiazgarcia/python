@@ -1,3 +1,5 @@
+#Implementar una función que reciba un carácter y devuelva si el carácter es una vocal
+
 def caracter(letra):
     if letra=="a" or letra=="A":
         print("La letra ", letra, " es una vocal")

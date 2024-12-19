@@ -1,3 +1,5 @@
+#Implementar una función que reciba tres números y devuelva el máximo de tres valores
+
 def max(h1,h2,h3):
     if h1>h2>h3:
         print(h1)

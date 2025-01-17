@@ -1,5 +1,5 @@
 # Implementar una función que reciba circo cartas de la baraja francesa y devuelva si tiene un poker o no (4 cartas con el mismo número)
-def barajaCreate():
+def is_poker():
 
     carta1=(input("introduce el número de la carta1 por favor: "))
     carta2=(input("introduce el número de la carta2 por favor: "))
@@ -16,6 +16,6 @@ def barajaCreate():
     return False
 
 
-baraja=barajaCreate()
+baraja=is_poker()
 
 print(baraja)
